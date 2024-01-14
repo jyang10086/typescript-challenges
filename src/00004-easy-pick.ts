@@ -1,4 +1,6 @@
-interface Todo {
+/**
+ * 
+ interface Todo {
   title: string;
   description: string;
   completed: boolean;
@@ -10,6 +12,7 @@ const todo: TodoPreview = {
   title: "Clean room",
   completed: false,
 };
+***/
 
 type MyPick<T, K extends keyof T> = {
 	[key in K]: T[key]
